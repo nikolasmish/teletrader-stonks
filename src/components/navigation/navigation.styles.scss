@@ -1,0 +1,27 @@
+.navigation{
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px ;
+  background-color: #343a3f;
+
+  ul{
+    display: flex;
+    align-items: center;
+
+    li{
+      padding: 7px;
+    }
+  }
+
+  a{
+    color: dimgray;
+  }
+
+  h2,.current-active{
+    color: white;
+  }
+
+}
+

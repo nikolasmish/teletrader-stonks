@@ -1,0 +1,26 @@
+.prices-item-table{
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr 2fr 2fr;
+  text-align: center;
+  margin-bottom: 10px;
+  opacity: 0;
+}
+
+.price-update{
+  opacity: 1;
+  transition: 400ms;
+}
+
+.price-flash{
+  animation: highlight 2s;
+}
+
+@keyframes highlight {
+  0% {
+    background-color: rgba(55, 255, 148, 0.3);
+  }
+  100% {
+    color: default;
+  }
+}

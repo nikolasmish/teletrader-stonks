@@ -1,0 +1,32 @@
+.prices-table{
+  width: 100%;
+  margin: auto;
+  
+  .prices-table-wrapper{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 2fr 2fr;
+    gap: 2px;
+
+    h4{
+      padding: 5px;
+      text-align: center;
+      background: #eee;
+      margin-bottom: 10px;
+      font-size: 14px;
+    }
+  }
+}
+
+@media (min-width: 500px) {
+  .prices-table{
+    .prices-table-wrapper{
+      h4{
+        padding: 15px;
+        text-align: center;
+        background: #eee;
+        margin-bottom: 10px;
+      }
+    }
+  }
+}

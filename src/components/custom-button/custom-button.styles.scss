@@ -1,0 +1,19 @@
+.custom-button{
+  font-family: inherit;
+  border: none;
+  outline: none;
+  background: dodgerblue;
+  cursor: pointer;
+  padding: 15px 20px;
+  border-radius: 7px;
+  color: white;
+  display: block;
+  align-items: center;
+  transition: 250ms;
+
+  &:hover{
+    box-shadow: 4px 4px 4px 0px rgba(0,0,0,0.25);
+    -webkit-box-shadow: 4px 4px 4px 0px rgba(0,0,0,0.25);
+    -moz-box-shadow: 4px 4px 4px 0px rgba(0,0,0,0.25);
+  }
+}
